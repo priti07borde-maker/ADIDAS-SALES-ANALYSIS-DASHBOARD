@@ -16,8 +16,6 @@ The dashboard provides a comprehensive analysis of Adidas sales performance acro
 
 ## Business Objective
 
-The primary objective of this dashboard is to:
-
 - Analyze overall sales performance.
 - Monitor profitability and business growth.
 - Identify top-performing products and retailers.
@@ -32,11 +30,11 @@ The primary objective of this dashboard is to:
 - Power BI
 - Power Query
 - DAX
+- Excel
 - Data Modeling
 - Data Visualization
 - Interactive Slicers
 - KPI Cards
-- Excel Dataset
 
 ---
 
@@ -60,7 +58,7 @@ The dataset contains Adidas sales transaction data including:
 
 ## Data Preparation
 
-Data transformation and cleaning were performed using Power Query.
+Data cleaning and transformation were performed using Power Query.
 
 ### Steps Performed
 
@@ -69,52 +67,10 @@ Data transformation and cleaning were performed using Power Query.
 3. Handled missing values.
 4. Corrected data types.
 5. Standardized column names.
-6. Created calculated columns and measures.
-7. Built relationships between tables.
-8. Developed DAX measures for KPIs.
-9. Created an interactive Power BI dashboard.
-
----
-
-## DAX Measures Used
-
-### Total Sales
-
-```DAX
-Total Sales =
-SUMX(
-    'Dataset',
-    'Dataset'[Price per Unit] * 'Dataset'[Units Sold]
-)
-```
-
-### Total Profit
-
-```DAX
-Total Profit =
-SUM('Dataset'[Operating Profit])
-```
-
-### Total Units Sold
-
-```DAX
-Total Unit Sold =
-SUM('Dataset'[Units Sold])
-```
-
-### Average Price Per Unit
-
-```DAX
-Average Price Per Unit =
-AVERAGE('Dataset'[Price per Unit])
-```
-
-### Profit Margin
-
-```DAX
-Profit Margin =
-AVERAGE('Dataset'[Operating Margin])
-```
+6. Created calculated measures.
+7. Built data model relationships.
+8. Developed KPI calculations.
+9. Designed an interactive dashboard.
 
 ---
 
@@ -130,25 +86,25 @@ AVERAGE('Dataset'[Operating Margin])
 
 ### Monthly Sales Trend
 
-- Analyzes monthly sales performance.
-- Identifies peak and low-performing months.
-- Supports trend analysis and forecasting.
+- Tracks monthly sales performance.
+- Identifies seasonal trends and fluctuations.
+- Supports business planning and forecasting.
 
 ### State Wise Sales Analysis
 
 - Interactive map visualization.
 - Highlights sales distribution across states.
-- Helps identify high-performing markets.
+- Identifies high-performing markets.
 
 ### Region Wise Sales Analysis
 
-- Compares regional sales contribution.
-- Provides insights into geographic performance.
+- Compares sales contribution by region.
+- Helps understand geographic performance.
 
 ### Product Wise Sales Analysis
 
-- Identifies top-performing product categories.
-- Compares sales across product segments.
+- Evaluates performance of product categories.
+- Identifies top revenue-generating products.
 
 ### Retailer Wise Sales Analysis
 
@@ -172,22 +128,21 @@ AVERAGE('Dataset'[Operating Margin])
 
 ## Project Outcome
 
-This dashboard helps business stakeholders monitor sales performance, evaluate profitability, identify top-performing products and retailers, and make informed business decisions using interactive visual analytics.
+This dashboard helps stakeholders monitor sales performance, evaluate profitability, identify top-performing products and retailers, and make informed business decisions through interactive data visualization.
 
 ---
 
 ## Repository Structure
 
-ADIDAS-SALES-ANALYSIS-DASHBOARD/
+ADIDAS-SALES-ANALYSIS-DASHBOARD
 
-├── ADIDAS SALES ANALYSIS DASHBOARD.pbix
-
-├── DASHBOARD.png
-
-├── README.md
+- ADIDAS SALES ANALYSIS DASHBOARD.pbix
+- DASHBOARD.png
+- README.md
 
 ---
 
 ## Author
 
 ### Priti Borde
+
