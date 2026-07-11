@@ -191,24 +191,3 @@ ADIDAS-SALES-ANALYSIS-DASHBOARD/
 ## Author
 
 ### Priti Borde
-
-MBA (Agri Business & International Business)
-
-Data Analytics Learner
-
-### Technical Skills
-
-- Power BI
-- Power Query
-- DAX
-- Excel
-- SQL
-- Python
-- Statistics
-- Data Visualization
-
----
-
-## Repository Description
-
-Interactive Adidas Sales Analysis Dashboard built using Power BI, Power Query, and DAX to analyze sales performance, profitability, regional trends, retailer contribution, and product-wise insights through dynamic visualizations and business intelligence reporting.
