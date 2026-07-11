@@ -2,7 +2,7 @@
 
 ## Dashboard Preview
 
-![Dashboard](DASHBOARD ..png)
+![Dashboard](DASHBOARD.png)
 
 ---
 
@@ -69,8 +69,8 @@ Data cleaning and transformation were performed using Power Query.
 5. Standardized column names.
 6. Created calculated measures.
 7. Built data model relationships.
-8. Developed KPI calculations.
-9. Designed an interactive dashboard.
+8. Developed KPI calculations using DAX.
+9. Designed an interactive dashboard in Power BI.
 
 ---
 
@@ -137,6 +137,7 @@ This dashboard helps stakeholders monitor sales performance, evaluate profitabil
 ADIDAS-SALES-ANALYSIS-DASHBOARD
 
 - ADIDAS SALES ANALYSIS DASHBOARD.pbix
+- Adidas US Sales_Datasets.xlsx
 - DASHBOARD.png
 - README.md
 
